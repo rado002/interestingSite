@@ -1,0 +1,270 @@
+body {
+  width: 100%;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  font-family: "SF Pro Text";
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#home,
+#start,
+#middle,
+#last {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 400px;
+  flex-flow: row wrap;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+
+.page-title {
+  font-size: 32px;
+  margin: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+#home {
+  background-image: linear-gradient(to top, #ff5370 0%, #ffb199 100%);
+}
+
+#start {
+  background-image: linear-gradient(to top, #ff5370 0%, #ffb199 100%);
+}
+
+#middle {
+  background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
+}
+
+#last {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+#nav {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 8px 0px;
+}
+
+.navButton a {
+  text-decoration: none;
+}
+
+.selected {
+  text-decoration: none;
+}
+
+.card-contact {
+  margin: 1em 0.25em;
+  padding: 0.5em 0;
+}
+
+#contact-group-section {
+  width: 75%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  justify-content: space-around;
+  align-self: flex-start;
+  align-content: flex-start;
+  flex: 1 1 auto;
+  padding: 0.5em;
+}
+
+.card-contact-section {
+  width: 275px;
+  height: 100%;
+  position: relative;
+  align-items: flex-start;
+  margin: 0.25em;
+}
+
+.card-contact-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 1em;
+  align-items: center;
+}
+
+#user-action-examples-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#user-action-page-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#purchaseContainer {
+  position: relative;
+  display: flex;
+  /* width: 60%; */
+  box-sizing: content-box;
+  text-align: left;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+#purchase-details-container {
+  width: 75%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: left;
+  justify-content: space-around;
+  align-self: flex-start;
+  align-content: flex-start;
+  flex: 1 1 auto;
+  margin: 16px 0px;
+}
+
+#product-details {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#prod-section-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#prod-section-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#cart-details {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#product-description {
+  font-size: 13px;
+  font-style: italic;
+  color: #485c6e;
+  margin: 16px 0px;
+}
+
+.edit-quantity-button {
+  font-size: 10;
+  border: 0;
+  margin: 0px 3px;
+}
+
+/* resource styles */
+
+#worldClockModule {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+#detailSection {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.resource-detail-item {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-flow: wrap row;
+  flex: 1 1 30%;
+  align-items: center;
+  align-content: center;
+  justify-content: stretch;
+  align-self: center;
+  margin: 2px 0px;
+  padding: 10px 0px;
+}
+
+.resource-label {
+  margin-right: 12px;
+  background: skyblue;
+  padding: 3px;
+  border: skyblue 1px solid;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 80%;
+}
+
+.resource-value {
+  font-family: "Andale Mono";
+  font-size: 14px;
+}
+
+#buttons {
+  margin: 20px 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+/* Error page  */
+
+#content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+#errorMessageContainer,
+#errorContainer {
+  border: grey 0.5px solid;
+  margin: 32px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  width: 35%;
+  height: 100vh;
+  position: relative;
+}
